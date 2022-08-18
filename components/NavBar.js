@@ -13,9 +13,9 @@ export default function NavBar() {
       <Link href="/about">
         <a>about</a>
       </Link>
-      <style jsx>{`
-      nav {
-          background-color : tomato;
+      <style jsx global>{`
+      a {
+          color : tomato;
       }
       a {
           text-decoration:none;

@@ -1,11 +1,12 @@
 import NavBar from "../components/NavBar";
+import Head from "next/head";
+import Seo from "./Seo";
 
-export default function about () {
-
-    return (
+export default function about() {
+  return (
     <>
-    <NavBar />
-    <h1>About</h1>
+      <Seo title="about" />
+      <h1>About</h1>
     </>
-    )
+  );
 }
